@@ -1,6 +1,6 @@
 ---
 name: journey
-description: Show the project skill store, memory state, and recent work without changing anything. Run when asked what the agent has learned or what is in project memory.
+description: Show the KeyOps project skill store, memory state, and recent work without changing anything. Run when asked what the agent has learned or what is in project memory.
 ---
 
 # Journey

@@ -1,6 +1,6 @@
 ---
 name: refine
-description: Review a finished session and save only the durable corrections, facts, and procedures the next session would otherwise lose.
+description: Review a finished KeyOps session and save only the durable corrections, facts, and procedures the next session would otherwise lose.
 ---
 
 # Refine

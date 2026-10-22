@@ -1,6 +1,6 @@
 ---
 name: learn
-description: Turn a source or a just-finished workflow into a reusable project skill. Run when asked to capture a procedure, or after a task reveals a repeatable method.
+description: Turn a source or a just-finished workflow into a reusable KeyOps project skill. Run when asked to capture a procedure, or after a task reveals a repeatable method.
 ---
 
 # Learn
@@ -52,7 +52,8 @@ description: <one line describing when to load it>
 Bump `patches` when editing an existing skill.
 
 9. Run the checks that prove the procedure works. If a command cannot be run, say so in the skill instead of implying it was tested.
-10. End with one line: skill name and what it covers.
+10. Run `python .opencode/skills/curator/scripts/skills_report.py` and confirm the skill appears active with a valid name.
+11. End with one line: skill name and what it covers.
 
 ## Quality bar
 

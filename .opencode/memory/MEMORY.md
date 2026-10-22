@@ -9,6 +9,7 @@ Last reviewed: 2026-10-22
 - Repo: `devtechedge/keyops`
 - Live site: `https://keyops-teal.vercel.app`
 - Vercel project: `keyops`, root directory `web`
+- Release state, deploy commands, and open release threads: `.opencode/memory/domains/release/MEMORY.md`
 
 ## Stack
 

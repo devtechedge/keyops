@@ -1,6 +1,6 @@
 ---
 name: curator
-description: Prune stale project skills without losing them. Run when asked to tidy the skill store, or after a long run creates overlapping skills.
+description: Prune stale KeyOps project skills without losing them. Run when asked to tidy the skill store, or after a long run creates overlapping skills.
 ---
 
 # Curator

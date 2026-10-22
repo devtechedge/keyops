@@ -70,6 +70,10 @@ Capture from the deployed site, not a local mock.
 - Text at least 48px for the headline and 18px for the subhead.
 - No text near the edges. No clipped terminal rows.
 - Set it in GitHub repository settings and use the same image in the README or docs.
+- There is no REST endpoint for the upload. If Ego Lite is already signed in, open the repo settings,
+  click the Social preview Edit control, and set `#repo-image-file-input` to the absolute PNG path.
+- Verify by checking that the repo `og:image` is on `repository-images.githubusercontent.com`, then
+  compare its SHA-256 with the source PNG.
 
 ## Topics
 

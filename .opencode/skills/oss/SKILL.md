@@ -1,6 +1,6 @@
 ---
 name: oss
-description: Work on upstream open-source issues and pull requests. Covers target screening, reproduction, serial shipping, maintainer voice, comment approval, and post-run review.
+description: Work on upstream open-source issues and pull requests from the KeyOps project. Covers target screening, reproduction, serial shipping, maintainer voice, comment approval, and post-run review.
 ---
 
 # OSS contribution workflow
