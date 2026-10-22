@@ -2,6 +2,9 @@
 
 Last reviewed: 2026-10-22
 
+> **Status: retired.** `devtechedge/keyward` is the canonical build. This repository is kept as a
+> public archive. Do not add features, releases, or new memory here. See `docs/RETIRED.md`.
+
 ## Product
 
 - KeyOps rotates AI API keys across consumers, verifies the replacement, then revokes the old key.
