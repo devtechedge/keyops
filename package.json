@@ -21,7 +21,8 @@
     "typecheck": "tsc --noEmit",
     "web:dev": "npm --workspace web run dev",
     "web:build": "npm --workspace web run build",
-    "ci": "npm run typecheck && npm test && npm run build && npm run web:build"
+    "ci": "npm run typecheck && npm test && npm run build && npm run web:build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "ai",
