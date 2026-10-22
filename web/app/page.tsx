@@ -216,13 +216,13 @@ export default function HomePage() {
               <div>
                 <p className="text-white/35"># 1. See the plan. Nothing changes.</p>
                 <p className="mono mt-1 text-white/85">
-                  <span className="text-[var(--accent)]">$</span> npx keyops plan OPENAI_API_KEY
+                  <span className="text-[var(--accent)]">$</span> keyops plan OPENAI_API_KEY
                 </p>
               </div>
               <div>
                 <p className="text-white/35"># 2. Rotate with approval.</p>
                 <p className="mono mt-1 text-white/85">
-                  <span className="text-[var(--accent)]">$</span> npx keyops rotate OPENAI_API_KEY --approve
+                  <span className="text-[var(--accent)]">$</span> keyops rotate OPENAI_API_KEY --approve
                 </p>
               </div>
               <div className="rounded-xl border border-white/8 bg-white/[0.025] p-3">
@@ -237,7 +237,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-[10px] text-white/30">
-                npx works from GitHub today. npm publish is next.
+                Install from GitHub. npm publish is next.
               </p>
             </div>
           </div>
