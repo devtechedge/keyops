@@ -1,0 +1,55 @@
+{
+  "name": "keyops",
+  "version": "0.1.0",
+  "description": "Rotate AI API keys across every consumer with verification and rollback.",
+  "type": "module",
+  "bin": {
+    "keyops": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "web:dev": "npm --workspace web run dev",
+    "web:build": "npm --workspace web run build",
+    "ci": "npm run typecheck && npm test && npm run build && npm run web:build"
+  },
+  "keywords": [
+    "ai",
+    "api-keys",
+    "rotation",
+    "secrets",
+    "security",
+    "openai",
+    "anthropic",
+    "openrouter"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@napi-rs/keyring": "^2.1.2",
+    "commander": "^15.0.0",
+    "libsodium-wrappers": "^0.8.4",
+    "picocolors": "^1.1.1",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.8.2",
+    "@types/node": "^26.6.5",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
