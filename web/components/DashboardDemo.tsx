@@ -104,7 +104,7 @@ export function DashboardDemo() {
       </div>
 
       <div className="overflow-hidden rounded-[24px] border border-[var(--line)] bg-[var(--card)] shadow-[var(--shadow)] backdrop-blur-xl">
-        <div className="flex min-h-[720px]">
+        <div className="flex min-h-[720px] min-w-0">
           <aside className="hidden w-[208px] shrink-0 border-r border-[var(--line)] bg-[var(--card-solid)] p-4 lg:block">
             <div className="flex items-center gap-2 px-2 py-2">
               <span className="grid h-7 w-7 place-items-center rounded-lg bg-[var(--accent)] text-[11px] font-black text-[var(--accent-ink)]">
@@ -197,7 +197,7 @@ export function DashboardDemo() {
               </div>
 
               <div className="mt-4 grid gap-4 xl:grid-cols-[1.45fr_0.9fr]">
-                <div className="card-solid overflow-hidden">
+                <div className="card-solid min-w-0 overflow-hidden">
                   <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3">
                     <div>
                       <p className="text-xs font-semibold">Keys</p>
@@ -278,7 +278,7 @@ export function DashboardDemo() {
                   </div>
                 </div>
 
-                <div className="card-solid overflow-hidden">
+                <div className="card-solid min-w-0 overflow-hidden">
                   <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3">
                     <div>
                       <p className="text-xs font-semibold">Rotation run</p>
@@ -368,7 +368,7 @@ export function DashboardDemo() {
               </div>
 
               <div className="mt-4 grid gap-4 md:grid-cols-[1.45fr_0.9fr]">
-                <div className="card-solid overflow-hidden">
+                <div className="card-solid min-w-0 overflow-hidden">
                   <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3">
                     <p className="text-xs font-semibold">Recent runs</p>
                     <span className="text-[10px] text-[var(--faint)]">last 7 days</span>
@@ -393,7 +393,7 @@ export function DashboardDemo() {
                   </div>
                 </div>
 
-                <div className="card-solid overflow-hidden">
+                <div className="card-solid min-w-0 overflow-hidden">
                   <div className="flex items-center justify-between border-b border-[var(--line)] px-4 py-3">
                     <p className="text-xs font-semibold">Consumers</p>
                     <span className="text-[10px] text-[var(--faint)]">fan-out targets</span>

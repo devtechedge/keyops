@@ -128,7 +128,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="animate-fade-up [animation-delay:120ms]">
+            <div className="min-w-0 animate-fade-up [animation-delay:120ms]">
               <RotationHero />
             </div>
           </div>

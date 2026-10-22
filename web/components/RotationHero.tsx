@@ -69,11 +69,11 @@ export function RotationHero() {
   const complete = active >= STEPS.length;
 
   return (
-    <div className="relative mx-auto w-full max-w-[560px]">
-      <div className="absolute -left-3 top-16 z-10 hidden rounded-full border border-[var(--line)] bg-[var(--card-solid)] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--muted)] shadow-lg sm:block">
+    <div className="relative mx-auto w-full min-w-0 max-w-[560px]">
+      <div className="absolute -top-3 left-3 z-10 hidden rounded-full border border-[var(--line)] bg-[var(--card-solid)] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--muted)] shadow-lg sm:block">
         rollback ready
       </div>
-      <div className="absolute -right-2 top-40 z-10 hidden rounded-full border border-[var(--line)] bg-[var(--card-solid)] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--muted)] shadow-lg sm:block">
+      <div className="absolute -top-3 right-3 z-10 hidden rounded-full border border-[var(--line)] bg-[var(--card-solid)] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--muted)] shadow-lg sm:block">
         no raw keys stored
       </div>
 
@@ -96,10 +96,10 @@ export function RotationHero() {
         </div>
 
         <div className="terminal-body">
-          <div className="flex items-center gap-2 overflow-hidden whitespace-nowrap text-[12px] text-white/70">
-            <span className="text-[var(--accent)]">$</span>
-            <span className="mono">keyops rotate OPENAI_API_KEY --approve</span>
-            <span className="cursor" />
+          <div className="flex min-w-0 items-center gap-2 overflow-hidden whitespace-nowrap text-[12px] text-white/70">
+            <span className="shrink-0 text-[var(--accent)]">$</span>
+            <span className="mono min-w-0 truncate">keyops rotate OPENAI_API_KEY --approve</span>
+            <span className="cursor shrink-0" />
           </div>
 
           <div className="mt-6 space-y-1">
