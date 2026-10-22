@@ -1,0 +1,58 @@
+{
+  "dev-memory": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "curator": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "journey": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "learn": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "oss": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "refine": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  },
+  "github-repo-presentation": {
+    "state": "active",
+    "created_by": "project",
+    "created_at": "2026-10-22T03:40:00Z",
+    "last_used": "2026-10-22T03:40:00Z",
+    "uses": 0,
+    "patches": 0
+  }
+}
