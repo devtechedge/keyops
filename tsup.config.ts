@@ -7,8 +7,5 @@ export default defineConfig({
   clean: true,
   splitting: false,
   sourcemap: true,
-  banner: {
-    js: "#!/usr/bin/env node",
-  },
   external: ["@napi-rs/keyring"],
 });
