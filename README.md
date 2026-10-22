@@ -2,7 +2,7 @@
 
 **Rotate a leaked AI key without breaking production.**
 
-KeyOps is a command-line tool and hosted runbook for one narrow task: replace an AI API key everywhere it lives, prove the replacement works, then revoke the old key. If any step fails, it restores the old key from encrypted escrow.
+KeyOps is an open-source command-line tool with a web dashboard for one narrow task: replace an AI API key everywhere it lives, prove the replacement works, then revoke the old key. If any step fails, it restores the old key from encrypted escrow.
 
 [![CI](https://github.com/devtechedge/keyops/actions/workflows/ci.yml/badge.svg)](https://github.com/devtechedge/keyops/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
