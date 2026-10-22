@@ -12,3 +12,6 @@ coverage/
 .DS_Store
 playwright-report/
 test-results/
+.opencode/skills/.archive/
+.opencode/memory/pending-review.md
+.opencode/memory/domains/**/????-??-??.md

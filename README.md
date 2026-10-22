@@ -26,6 +26,14 @@ KeyOps changes the secret where it already lives:
 
 Requires Node.js 20 or newer.
 
+Run it without cloning:
+
+```bash
+npx github:devtechedge/keyops#main --help
+```
+
+Or work from source:
+
 ```bash
 git clone https://github.com/devtechedge/keyops.git
 cd keyops
@@ -195,6 +203,17 @@ src/
 web/                     Next.js landing, audit, and dashboard demo
 docs/screenshots/        product screenshots
 ```
+
+## Agent workflows
+
+The repository ships project-scoped agent skills under `.opencode/skills/`:
+
+- `dev-memory` and `refine` for project context.
+- `curator`, `journey`, and `learn` for skill maintenance.
+- `oss` for upstream contribution work.
+- `github-repo-presentation` for public repository polish.
+
+They are plain Markdown with no runtime dependency. Read `.opencode/skills/README.md` for the index.
 
 ## Limitations
 
