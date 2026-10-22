@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://keyops.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://keyops-teal.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

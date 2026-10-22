@@ -96,7 +96,7 @@ export function RotationHero() {
         </div>
 
         <div className="terminal-body">
-          <div className="flex min-w-0 items-center gap-2 overflow-hidden whitespace-nowrap text-[12px] text-white/70">
+          <div className="flex min-w-0 items-center gap-2 overflow-hidden whitespace-nowrap text-[10px] text-white/70 sm:text-[12px]">
             <span className="shrink-0 text-[var(--accent)]">$</span>
             <span className="mono min-w-0 truncate">keyops rotate OPENAI_API_KEY --approve</span>
             <span className="cursor shrink-0" />
